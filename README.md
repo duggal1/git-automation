@@ -29,37 +29,26 @@ The Git Automation tool follows a simple workflow:
 ### Prerequisites
 
 - Git installed on your system
-- Node.js or Bun installed
+- Node.js installed
 
 ### Installation
 
 1. Save the script as `git.js` in your project root
 
-2. Make it executable:
+2. Make it executable (optional, for Unix/Linux/Mac):
    ```bash
    chmod +x git.js
    ```
 
-3. For global installation with Bun:
-   ```bash
-   bun link
-   ```
-
 ## Usage 💻
 
-Run the automation script using Bun:
+Run the automation script using Node.js:
 
 ```bash
-bun git.js
+node git.js
 ```
 
-Or if installed globally:
-
-```bash
-git.js
-```
-
-The script will:
+That's it! The script will:
 - Stage all changes
 - Create a commit with a randomly selected message
 - Push the changes to your remote repository
@@ -82,4 +71,5 @@ This project is available as open source under the terms of the MIT License.
 
 ---
 
-Made with ❤️ by You
+
+Made with ❤️ by [Harshit Duggal](https://github.com/duggal1) 
